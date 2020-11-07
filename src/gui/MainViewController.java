@@ -36,7 +36,7 @@ public class MainViewController implements Initializable {
 	public void onMenuitemSellerAction() {
 		loadView("/gui/SellerList.fxml", (SellerListController Controller)->{
 			Controller.setSellerService(new SellerService());
-			Controller.updateTableView();
+			Controller.updateTableView(); 
 			
 		});
 	}
